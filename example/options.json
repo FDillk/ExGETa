@@ -1,0 +1,33 @@
+{
+	"name": "IonoEval",
+	"modelmeta": {
+		"task": "classification,",
+		"method": "SVM",
+		"module": "sklearn.SVC",
+		"model_path": "example/pickle_iono.pkl",
+		"loader_module": "sklearn.pickle"
+	},
+	"datasetmeta": {
+		"data_path": "example/iono.csv",
+		"data_format": "CSV",
+		"labelloc": "f",
+		"traintest_cutoff": 200,
+		"n_labels": 1,
+		"headerlines": 1,
+		"data_separator": ",",
+		"scaling": "NONE",
+		"n_classes": "2"
+	},
+	"mlflow_uri": "http://localhost:5000",
+	"mlflowexpid": "123456789",
+	"os": "windows",
+	"hardware": "cpu",
+	"outpath": "./ExGETa_ionosphere"
+}
+
+
+
+
+
+
+
